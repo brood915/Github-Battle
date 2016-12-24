@@ -1,11 +1,10 @@
-const React = require('react');
+import React from 'react';
 const Home = React.createClass({
     render() {
         return (
-          <div> Hello from Home!</div>
+          <div> Hello from Home!~</div>
       );
     }
-
 });
 
 export default Home;
