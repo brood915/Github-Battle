@@ -6,9 +6,9 @@ const Main = React.createClass({
         <div className ='main-container'>
             {this.props.children}
         </div>
-      );
+      )
     }
-});
+})
 
 
-export default Main;
+export default Main
