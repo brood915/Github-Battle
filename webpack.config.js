@@ -13,6 +13,12 @@ module.exports = {
         path: __dirname + "/dist",
         filename: "index.bundle.js"
     },
+    resolve: {
+      modulesDirectories: [
+        'node_modules',
+        './app/Components'
+      ]
+    },
     module: {
         loaders:[
             {test: /\.js$/, exclude: /node.modules/, loader: "babel-loader"}
