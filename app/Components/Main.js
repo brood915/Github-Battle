@@ -1,7 +1,7 @@
-var React = require('react');
+const React = require('react');
 
-var Main = React.createClass({
-    render: function () {
+const Main = React.createClass({
+    render() {
         return (
         <div className ='main-container'>
             {this.props.children}
@@ -10,4 +10,5 @@ var Main = React.createClass({
     }
 });
 
-module.exports = Main;
+
+export default Main;

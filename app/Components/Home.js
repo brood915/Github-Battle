@@ -1,12 +1,11 @@
-var React = require('react');
-var Home = React.createClass({
-    render: function () {
+const React = require('react');
+const Home = React.createClass({
+    render() {
         return (
-            <div> Hello from Home!</div>
-        )
+          <div> Hello from Home!</div>
+      );
     }
-    
-    
+
 });
 
-module.exports = Home;
+export default Home;
