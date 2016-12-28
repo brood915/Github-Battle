@@ -1,11 +1,7 @@
-const React = require('react');
-const ReactRouter = require('react-router');
-const Router = ReactRouter.Router;
-const Route = ReactRouter.Route;
-const IndexRoute = ReactRouter.IndexRoute;
-const Main = require('../components/Main');
-const Home = require('../components/Home');
-const hashHistory = ReactRouter.hashHistory;
+import React from 'react';
+import {Router, IndexRoute, hashHistory, Route} from 'react-router';
+import Main from 'Main';
+import Home from 'Home';
 
 const routes = (
   <Router history={hashHistory}>
