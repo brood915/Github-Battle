@@ -6,7 +6,7 @@ var transparentBg = require('../styles').transparentBg;
 
 function Home () {
   return (
-    <div className="jumbotron col-sm-12 text-center" style={transparentBg}>
+    <div className = "jumbotron col-sm-12 text-center" style={transparentBg}>
       <h1>Github Battle</h1>
       <p className='lead'>What even is a jQuery?</p>
       <Link to='/playerOne'>
