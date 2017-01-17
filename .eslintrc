@@ -6,6 +6,7 @@
     "react/display-name": 0,
     "react/prop-types": 0,
     "react/no-multi-comp": 0,
-    "semi": 0
+    "semi": 0,
+    "jsx-quotes": 0
   }
 }
